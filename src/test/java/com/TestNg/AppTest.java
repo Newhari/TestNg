@@ -2,7 +2,6 @@ package com.TestNg;
 
 import static org.junit.Assert.assertTrue;
 
-import junit.framework.Assert;
 import junit.framework.TestSuite;
 
 /**
@@ -35,10 +34,5 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
-    }
-    
-    public void Testcase_001()
-    {
-    	Assert.assertEquals(false, false);
     }
 }
